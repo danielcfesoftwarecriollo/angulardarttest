@@ -1,0 +1,10 @@
+name: testapp
+description: A sample web application
+dependencies:
+  angular_ui: "0.5.0"
+  unittest: any
+  ctrl_alt_foo: any
+  dquery: any
+  html_components: any
+dev_dependencies:
+    dartmocks: ">= 0.5.0"
