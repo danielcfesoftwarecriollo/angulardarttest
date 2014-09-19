@@ -7,6 +7,8 @@ dependencies:
   ctrl_alt_foo: any
   dquery: any
   html_components: any
+  angular_node_bind: any
+  model_map: ">=0.2.6 <0.3.0"
 dev_dependencies:
     dartmocks: ">= 0.5.0"
 dependency_overrides:

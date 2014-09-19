@@ -11,6 +11,7 @@ import 'package:angular/angular.dart';
 import 'package:angular/routing/module.dart';
 import 'package:angular/application_factory.dart';
 import 'package:angular_ui/angular_ui.dart';
+import 'package:angular_node_bind/angular_node_bind.dart';
 
 
 part 'controllers/testapp_controller.dart';
@@ -28,8 +29,9 @@ class TestappModule extends Module {
 
 @initMethod
 start() {
-  initPolymer();
-  applicationFactory()
+  initPolymer().run((){
+    applicationFactory()
     .addModule(new TestappModule())
-    .run();
+    .addModule(new NodeBindModule()).run();
+  });
 }

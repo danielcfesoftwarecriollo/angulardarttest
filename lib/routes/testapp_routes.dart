@@ -12,6 +12,10 @@ class TestappRouterInitializer {
           path: '/home',
           view: 'partials/index.html',
           defaultRoute: true),
+      'sort': ngRoute(
+          path: '/sort',
+          view: 'components/sort.html',
+          defaultRoute: false),
     });
   }
 }
