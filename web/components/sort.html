@@ -5,7 +5,8 @@
 
 <polymer-element name="datatable-sort-demo" >
   <template>
-    <h-datatable data="[[cars]]" paginatorPosition="bottom"
+    <p>{{cars.first.model}}</p>
+    <h-datatable data="{{cars}}" paginatorPosition="bottom"
                  rows="15" rowsPerPageTemplate="15,20,25" maxPageLinks="10" 
                  on-sorted="{{onColumnSorted}}">
       <header>List of Cars</header>

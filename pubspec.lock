@@ -17,10 +17,6 @@ packages:
     description: angular_ui
     source: hosted
     version: "0.5.5"
-  animation:
-    description: animation
-    source: hosted
-    version: "0.5.20"
   args:
     description: args
     source: hosted
@@ -68,7 +64,7 @@ packages:
   html_components:
     description: html_components
     source: hosted
-    version: "0.1.4"
+    version: "0.3.0"
   intl:
     description: intl
     source: hosted
